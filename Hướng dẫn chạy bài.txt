@@ -1,0 +1,29 @@
+hướng dẫn cách chạy bài:
+
+bước 1: tải IDE eclipse hoặc STS4 để khởi chạy project 
+	tải tomcat 9
+	tải jdk 1.8
+	tải apache-maven 3.6
+	tải mysql
+
+bước 2: cấu hình các file đã tải ở trên
+	cấu hình tomcat :  	   https://ngockhuong.com/java/huong-dan-cai-dat-va-cau-hinh-server-apache-tomcat-tren-eclipse.html 
+	cấu hình jdk:      	   https://blogloi.com/cai-dat-jdk-va-eclipse-de-lap-trinh-java/
+	cấu hình apache maven:     https://gpcoder.com/2916-huong-dan-su-dung-apache-maven-voi-eclipse/
+	cài đặt mysql:		   https://vietnix.vn/mysql-workbench/
+	cài đặt sts4 cho eclipse:  https://hocspringboot.net/2021/04/20/spring-tool-suite/
+
+bước 3: import file và cấu hình tomcat vào eclipse hoặc STS4
+	import database vào mysql và ấn execute để khởi tạo database
+	xem lại file pom.xml các thư viện được import có giống với thư viện đã tải ở trên hay chưa, nếu chưa hãy sửa lại cho đúng
+
+bước 4: nháy chuột phải vào project và chọn run AS -> run on server để chạy project
+	Người dụng: localhost:8080/BookSotre/
+	Admin: localhost:8080/BookSotre/Admin/
+	
+
+Thành viên nhóm : Chu Kim Phi Hùng
+		  Lương Trung Thuần
+		  Mai Đức Anh
+		  Phạm Quốc Huy
+		  Nguyễn Cao Quyền
